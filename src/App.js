@@ -38,16 +38,18 @@ class App extends React.Component {
       let name = post.firstName.toLowerCase()
       return name.search(input) !== -1;
     })
-    
+
     this.setState({results: filteredResults});
   }
 
   render(){
+    const { results } = this.state;
+
     return (
      <div className="search-app">
       <h1>Search App</h1>
       <SearchField textInput={this._fetchResults} />
-      <SearchResults searchData={this.results}/>
+      <SearchResults searchData={results}/>
      </div>
      )
   }

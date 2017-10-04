@@ -1,12 +1,20 @@
 import React from 'react';
+import SearchItem from './searchItem';
 
 class SearchResults extends React.Component {
 	_displayResults = () => {
-		// data.map((item) => { return (<Component prop=item.field />)})
-	}
+		const { searchData } = this.props;
+		if (!searchData) {
 
-	componentDidUpdate() {
-		console.log(this.props)
+		} else {
+			console.log(searchData)
+			searchData.map((item) => {
+				return (
+					<SearchItem firstName={item.firstName} />
+				)
+			})
+		}
+
 	}
 
 	render(){
