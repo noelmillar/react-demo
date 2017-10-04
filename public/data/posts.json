@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "firstName": "Jason",
+    "lastName": "Nash",
+    "age": 23,
+    "platform": "Instagram",
+    "campaign": "Share A Coke",
+    "engagement": {
+      "likes": 1380,
+      "comments" : 100,
+      "datePosted": "09-27-2017 14:53"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "David",
+    "lastName": "Dobrik",
+    "age": 21,
+    "platform": "Instagram",
+    "campaign": "Share A Coke",
+    "engagement": {
+      "likes": 14320,
+      "comments" : 237,
+      "datePosted": "09-27-2017 14:53"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "David",
+    "lastName": "Dobrik",
+    "age": 21,
+    "platform": "Instagram",
+    "campaign": "Share A Coke",
+    "engagement": {
+      "likes": 14320,
+      "comments" : 237,
+      "datePosted": "09-27-2017 14:53"
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "David",
+    "lastName": "Dobrik",
+    "age": 21,
+    "platform": "Instagram",
+    "campaign": "Share A Coke",
+    "engagement": {
+      "likes": 14320,
+      "comments" : 237,
+      "datePosted": "09-27-2017 14:53"
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "David",
+    "lastName": "Dobrik",
+    "age": 21,
+    "platform": "Instagram",
+    "campaign": "Share A Coke",
+    "engagement": {
+      "likes": 14320,
+      "comments" : 237,
+      "datePosted": "09-27-2017 14:53"
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "David",
+    "lastName": "Dobrik",
+    "age": 21,
+    "platform": "Instagram",
+    "campaign": "Share A Coke",
+    "engagement": {
+      "likes": 14320,
+      "comments" : 237,
+      "datePosted": "09-27-2017 14:53"
+    }
+  },
+  {
+    "id": 6,
+    "firstName": "David",
+    "lastName": "Dobrik",
+    "age": 21,
+    "platform": "Instagram",
+    "campaign": "Share A Coke",
+    "engagement": {
+      "likes": 14320,
+      "comments" : 237,
+      "datePosted": "09-27-2017 14:53"
+    }
+  }
+]
