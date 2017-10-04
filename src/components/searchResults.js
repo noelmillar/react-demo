@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchItem from './searchItem';
+import SearchResultItem from './searchResultItem';
 
 class SearchResults extends React.Component {
 	_displayResults = () => {
@@ -10,7 +10,11 @@ class SearchResults extends React.Component {
 			console.log(searchData)
 			return searchData.map((item) => {
 				return (
-					<SearchItem firstName={item.firstName} key={item.id} />
+					<SearchResultItem 
+						firstName={item.firstName}
+						lastName={item.lastName}
+						campaign={item.campaign}
+						key={item.id} />
 				)
 			})
 		}
@@ -19,9 +23,9 @@ class SearchResults extends React.Component {
 
 	render(){
 		return (
-			<div>
-			  <h3>Results</h3>
-			  <ul>
+			<div className="search-container">
+			  <h3>RESULTS</h3>
+			  <ul className="search-results">
 			  	{this._displayResults()}
 			  </ul>
 			</div>

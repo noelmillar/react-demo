@@ -8,8 +8,8 @@ class SearchField extends React.Component {
 
 	render(){
 		return (
-			<form className="search-app">
-				<input type="text" placeholder="Search Posts" onChange={this._handleInput.bind(this)}/>
+			<form className="search-form">
+				<input type="text" placeholder="search by typing a name..." onChange={this._handleInput.bind(this)}/>
 			</form>
 		)
 	}

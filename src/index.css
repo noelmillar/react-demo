@@ -1,0 +1,62 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #859CA5;
+}
+
+h1, h2, h3, p { font-family: 'Noto Sans', sans-serif; }
+
+.search-app {
+	padding:5px 30px;
+}
+
+.search-app h1 {
+	font-weight: 800;
+	font-size: 28px;
+	color: #2D3134;
+}
+
+.search-container h3 {
+	width:310px;
+	padding:6px 0;
+	border-bottom: 1.5px solid #ccc;
+}
+
+.search-form input {
+	border:none;
+	font-size: 18px;
+	outline: none;
+	background: transparent;
+	color:#e5e5e5;
+}
+
+.search-form input::-webkit-input-placeholder {
+	color: #e5e5e5;
+}
+
+.search-results {
+	padding:0;
+	list-style: none;
+}
+
+.search-result-item {
+	border:1px solid #fff;
+	border-radius: 2px;
+	margin:8px 0;
+	max-width: 257px;
+	padding:0 0 0 10px;
+	background: #fff;
+	padding:5px 25px;
+}
+
+.search-result-item h3 {
+	border:0;
+	padding:5px 0 0 0;
+	margin:0;
+	font-size: 16px;
+}
+
+.search-result-item p {
+	padding:10px 0 5px;
+	margin:0;
+	font-size: 14px;
+}

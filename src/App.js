@@ -48,7 +48,7 @@ class App extends React.Component {
 
     return (
      <div className="search-app">
-      <h1>Search App</h1>
+      <h1>SEARCH INFLUENCER POSTS BY NAME</h1>
       <SearchField textInput={this._fetchResults} />
       <SearchResults searchData={results}/>
      </div>
