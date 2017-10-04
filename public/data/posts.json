@@ -26,23 +26,10 @@
     }
   },
   {
-    "id": 2,
-    "firstName": "David",
-    "lastName": "Dobrik",
-    "age": 21,
-    "platform": "Instagram",
-    "campaign": "Share A Coke",
-    "engagement": {
-      "likes": 14320,
-      "comments" : 237,
-      "datePosted": "09-27-2017 14:53"
-    }
-  },
-  {
     "id": 3,
-    "firstName": "David",
-    "lastName": "Dobrik",
-    "age": 21,
+    "firstName": "George",
+    "lastName": "Clinton",
+    "age": 58,
     "platform": "Instagram",
     "campaign": "Share A Coke",
     "engagement": {
@@ -53,9 +40,9 @@
   },
   {
     "id": 4,
-    "firstName": "David",
-    "lastName": "Dobrik",
-    "age": 21,
+    "firstName": "Cody",
+    "lastName": "Ko",
+    "age": 27,
     "platform": "Instagram",
     "campaign": "Share A Coke",
     "engagement": {
@@ -66,8 +53,8 @@
   },
   {
     "id": 5,
-    "firstName": "David",
-    "lastName": "Dobrik",
+    "firstName": "Casey",
+    "lastName": "Neistat",
     "age": 21,
     "platform": "Instagram",
     "campaign": "Share A Coke",
@@ -79,9 +66,9 @@
   },
   {
     "id": 6,
-    "firstName": "David",
-    "lastName": "Dobrik",
-    "age": 21,
+    "firstName": "Ethan",
+    "lastName": "Klein",
+    "age": 42,
     "platform": "Instagram",
     "campaign": "Share A Coke",
     "engagement": {

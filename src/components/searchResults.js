@@ -8,9 +8,9 @@ class SearchResults extends React.Component {
 
 		} else {
 			console.log(searchData)
-			searchData.map((item) => {
+			return searchData.map((item) => {
 				return (
-					<SearchItem firstName={item.firstName} />
+					<SearchItem firstName={item.firstName} key={item.id} />
 				)
 			})
 		}
