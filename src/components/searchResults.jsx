@@ -1,9 +1,12 @@
 import React from 'react';
 
 class SearchResults extends React.Component {
-	_displayResults() {
-		console.log(this.props.searchData)
+	_displayResults = () => {
 		// data.map((item) => { return (<Component prop=item.field />)})
+	}
+
+	componentDidUpdate() {
+		console.log(this.props)
 	}
 
 	render(){
